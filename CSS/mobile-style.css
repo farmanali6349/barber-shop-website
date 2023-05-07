@@ -1,0 +1,92 @@
+@media screen and (max-width: 480px) {
+
+    /* ----------------------- Utility Classes ---------------------- */
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .btn {
+        padding: 8px 12px !important;
+    }
+
+    /* ----------------------- Navbar ---------------------- */
+
+    #navbar .nav-logo {
+        padding-left: 20px;
+    }
+
+    #menu-icon {
+        right: 20px;
+    }
+
+    /* ----------------------- Hero ---------------------- */
+    .hero-text h3 {
+        font-size: 20px;
+    }
+
+    .hero-text h2 {
+        font-size: 50px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-text a {
+        font-size: 13px;
+    }
+
+    .hero-left .buttons a.btn {
+        font-size: 13px;
+    }
+
+
+
+    /* ----------------------- Services ---------------------- */
+    .services-col {
+        flex-basis: 100%;
+    }
+
+    /* ----------------------- PRICING ---------------------- */
+    .pricing-row {
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .pricing-col {
+        flex-basis: 80%;
+        margin-top: 30px;
+
+    }
+
+    /* ----------------------- EXPERTS ---------------------- */
+    .experts-col {
+        flex-basis: 80%;
+
+    }
+
+    /* ----------------------- Gallery ---------------------- */
+    .gallery-col {
+        flex-basis: 50%;
+    }
+
+    /* ----------------------- TESTIMONIALS ---------------------- */
+    .testimonials-col {
+        flex-basis: 97%;
+    }
+
+    /* ----------------------- FOOTER ---------------------- */
+    #footer .footer-row {
+        gap: 20px;
+    }
+
+    #footer .footer-col {
+        flex-basis: 97%;
+    }
+
+    #footer .footer-col:nth-child(3),
+    #footer .footer-col:nth-child(4) {
+        margin-top: 0px;
+    }
+}
